@@ -24,4 +24,12 @@ public class Bonjour {
 	public String toString() {
 		return "Bonjour [message=" + message + "]";
 	}
+
+
+    public String getMessage() {
+        return message;
+    }
+    
+    
+    
 }
