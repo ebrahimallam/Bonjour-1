@@ -15,13 +15,7 @@ public class Bonjour {
     public Bonjour(String message) {
         this.message = message;
     }
-
-	/**
-	* Create string representation of Bonjour for printing
-	* @return
-	*/
-	@Override
-	public String toString() {
-		return "Bonjour [message=" + message + "]";
-	}
+    
+    
+    
 }
