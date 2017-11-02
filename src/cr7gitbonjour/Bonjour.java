@@ -16,10 +16,22 @@ public class Bonjour {
         this.message = message;
     }
 
+	/**
+	* Create string representation of Bonjour for printing
+	* @return
+	*/
+	@Override
+	public String toString() {
+		return "Bonjour [message=" + message + "]";
+	}
+
+
     public String getMessage() {
         return message;
     }
     
-    
+    public void bonjourName(String name) {
+        System.out.println("Yo! Dawg!" +name);
+    }    
     
 }
