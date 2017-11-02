@@ -16,6 +16,8 @@ public class Cr7GitBonjour {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Bonjour m = new Bonjour("Bonjour de ROSARS");
+        System.out.println();
     }
     
 }
