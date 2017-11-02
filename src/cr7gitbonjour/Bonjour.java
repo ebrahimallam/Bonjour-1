@@ -15,6 +15,10 @@ public class Bonjour {
     public Bonjour(String message) {
         this.message = message;
     }
+
+    public String getMessage() {
+        return message;
+    }
     
     
     
