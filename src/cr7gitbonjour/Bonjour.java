@@ -16,6 +16,8 @@ public class Bonjour {
         this.message = message;
     }
     
-    
+    public void bonjourName(String name) {
+        System.out.println("Yo! Dawg!" +name);
+    }    
     
 }
